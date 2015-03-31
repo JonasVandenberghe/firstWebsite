@@ -1,0 +1,60 @@
+body{
+	background: silver;
+}
+nav {
+	text-align: center;
+
+}
+nav ul ul{
+	display: none;
+	position: absolute;
+	background: indigo;
+	border-radius: 0px;
+	padding: 0;
+}
+nav ul li:hover > ul{
+ display: block;
+}
+nav ul{
+	background: cornflowerblue;
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	position: relative;
+	padding: 0px 20px;
+	list-style:none;
+	border-radius: 10px;
+	display:inline-block;
+}
+nav ul li{
+	float: left;
+
+}
+nav ul li:hover{
+	background: lightblue;
+
+}
+nav ul li a:hover{
+	color: red;
+}
+nav ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 25px 40px 25px 40px;
+	color:white;
+}
+nav ul ul li{
+	position: relative;
+	float: none;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+
+}
+nav ul ul li a{
+	padding: 15px 40px 15px 40px;
+}
+nav ul ul li a:hover{
+	background-color: cornflowerblue;
+}
+nav ul ul ul{
+	position: absolute;
+	left:100%;
+	 top:0;
